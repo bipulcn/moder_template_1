@@ -1,0 +1,30 @@
+.header, .features, .services, .slider, .contact {
+  padding-top: 80px;
+}
+.header h1, .header h3{
+  text-align: center;
+  padding: 10px 10px;
+  font-weight: 100;
+}
+.header h1{  font-size: 4.6em; }
+.header h3{  font-size: 1.9em; margin: 0 0 20px;}
+.hed_Img{
+  width: 100%;
+  max-height: 80vh;
+  overflow: hidden;
+}
+.hed_Img img {
+  margin-bottom: -25px;
+  width: 100%;
+}
+.left_img, .right_img {
+  width: 100%;
+}
+.right_img {
+  transform: rotate(180deg);
+}
+.header h5, .header p {
+  padding: 0 10px 10px 10px;
+  margin: 0;
+  line-height: 2em;
+}

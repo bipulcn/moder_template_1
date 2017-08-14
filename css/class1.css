@@ -1,0 +1,24 @@
+html {
+  margin: 0;
+  padding: 0;
+  background: rgba(0,0,0,0.9);
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: rgba(255, 255, 255, 0.5);
+  font-family: Raleway, Helvetica;
+}
+
+.container {
+  width: 100%;
+}
+.content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+ul, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}

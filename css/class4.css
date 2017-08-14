@@ -1,0 +1,17 @@
+.main_menu ul{
+  display: block;
+}
+.main_menu li{
+  list-style: none;
+  float: left;
+}
+.main_menu a {
+  display: block;
+  color: rgba(42, 42, 42, 0.5);
+  text-decoration: none;
+  padding: 15px 15px;
+}
+.main_menu a:hover {
+  color: rgba(42, 42, 42, 0.75);
+  background: rgba(202, 202, 202, 0.5);
+}
