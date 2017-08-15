@@ -1,0 +1,18 @@
+.slider {
+  height: 100vh;
+  overflow: hidden;
+}
+@keyframes example {
+    0%   {background: url(../img/scrn1.png) no-repeat 50%  60% rgba(52, 73, 95, 0.95);}
+    45%  {background: url(../img/scrn1.png) no-repeat 50%  60% rgba(52, 73, 95, 0.95);}
+    50%  {background: url(../img/scrn2.png) no-repeat 50%  60% rgba(52, 73, 95, 0.95);}
+    95%  {background: url(../img/scrn2.png) no-repeat 50%  60% rgba(52, 73, 95, 0.95);}
+    100%  {background: url(../img/scrn1.png) no-repeat 50%  60% rgba(52, 73, 95, 0.95);}
+}
+
+/* The element to apply the animation to */
+.slider {
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}

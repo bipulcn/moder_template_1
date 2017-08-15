@@ -1,4 +1,16 @@
-.services h1 {
+.services h1, .slider h1 {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 20px 0 10px 0;
+}
+.serve {
+  text-align: center;
+  padding: 10%;
+}
+.serve h4 {
+  margin: 10px auto;
+  font-weight: 100;
+}
+
+.serve img {
+  margin: 0 auto;
 }
