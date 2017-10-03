@@ -1,0 +1,40 @@
+html {
+  margin: 0;
+  padding: 0;
+  background: rgba(0,0,0,0.9);
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: rgba(255, 255, 255, 0.5);
+  font-family: Raleway, Helvetica;
+  line-height: 1.8em;
+}
+
+ul, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+/* style related with the class */
+.menu {
+  color: rgba(255,255,255, 0.75);
+  background: rgba(25, 25, 25, 0.75);
+}
+.datas {
+  color: rgba(255,255,255, 0.95);
+  background: rgba(25, 25, 25, 0.75);
+  border-left: 1px solid rgba(255,255,255,0.5);
+}
+.lines {
+  text-align: right;
+  color: rgba(255,255,255, 0.2);
+  border-right: 1px solid orange;
+  line-height: 1.8em;
+  font-size: 0.8em;
+}
+.one { width: calc(3.33% - 1px) !important; padding: 1% !important; }
+.nine { width: calc(75% - 1px) !important; padding: 0% !important;}
+.datas .two, .datas .one, .datas .eleven {
+  background: rgba(25, 25, 25, 0.95);
+}
