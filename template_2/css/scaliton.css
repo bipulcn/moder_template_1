@@ -1,0 +1,32 @@
+.container {
+  width: 98%;
+  padding: 0;
+  margin: 0 auto;
+}
+.content {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.column {
+	min-height: 60px;
+}
+.one { width: 7.33%; background: rgba(100, 020, 230, 0.5); padding: 0.5%; }
+.two { width: 15.66%; background: rgba(240, 120, 230, 0.5); padding: 0.5%; }
+.three { width: 24%; background: rgba(100, 120, 200, 0.5); padding: 0.5%;}
+.four { width: 32.32%; background: rgba(56, 250, 230, 0.5); padding: 0.5%; }
+.five { width: 40.65%; background: rgba(100, 220, 230, 0.5); padding: 0.5%; }
+.six { width: 49%; background: rgba(250, 120, 230, 0.5); padding: 0.5%; }
+.seven { width: 57.31%; background: rgba(100, 120, 30, 0.5); padding: 0.5%; }
+.eight { width: 65.64%; background: rgba(175, 120, 130, 0.5); padding: 0.5%; }
+.nine { width: 74%; background: rgba(100, 220, 30, 0.5); padding: 0.5%; }
+.ten { width: 82.3%; background: rgba(134, 120, 230, 0.5); padding: 0.5%; }
+.eleven { width: 90.63%; background: rgba(120, 180, 230, 0.5); padding: 0.5%; }
+.twelve { width: 99%; background: rgba(100, 120, 230, 0.5); padding: 0.5%; }
+.clear {
+	width: 100%;
+	border: none;
+	margin: 0;
+	padding: 0;
+}
