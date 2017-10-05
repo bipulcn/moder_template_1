@@ -1,0 +1,11 @@
+.topbar {
+  max-height: 50px;
+  overflow: hidden;
+}
+.leftMenu {
+}
+.footer {
+}
+.maincotent { min-height: 90vh; }
+
+a { text-decoration: none; }
