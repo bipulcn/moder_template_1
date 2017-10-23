@@ -18,26 +18,7 @@
       <div class="column ten topbar cl4">
         <ul>
           <li>
-            <ul>
-              <li>You have 4 messages</li>
-              <li>
-                <ul>
-                  <li>
-                    <a href="#">
-                      <div>
-                        <!-- <img src="../../dist/img/user2-160x160.jpg" class="img-circle" alt="User Image"> -->
-                      </div>
-                      <h4>
-                        Support Team
-                        <small><i></i> 5 mins</small>
-                      </h4>
-                      <p>Why not buy a new awesome theme?</p>
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li><a href="#">See All Messages</a></li>
-            </ul>
+            test
           </li>
         </ul>
       </div>

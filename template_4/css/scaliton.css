@@ -6,19 +6,20 @@
   flex-wrap: wrap;
 }
 .column {
+  padding: 1%;
 }
-.one { width: 8.33%;}
-.two { width: 16.66%;}
-.three { width: 25%; }
-.four { width: 33.32%; }
-.five { width: 41.65%; }
-.six { width: 50%; }
-.seven { width: 58.31%; }
-.eight { width: 66.64%; }
-.nine { width: 75%; }
-.ten { width: 83.3%; }
-.eleven { width: 91.63%; }
-.twelve { width: 100%; }
+.one { flex-basis: 6.33%; flex-grow: 1;}
+.two { flex-basis: 14.66%; flex-grow: 2; }
+.three { flex-basis: 23%; flex-grow: 3; }
+.four { flex-basis: 31.32%; flex-grow: 4; }
+.five { flex-basis: 39.65%; flex-grow: 5; }
+.six { flex-basis: 48%; flex-grow: 6; }
+.seven { flex-basis: 56.31%; flex-grow: 7; }
+.eight { flex-basis: 64.64%; flex-grow: 8; }
+.nine { flex-basis: 73%; flex-grow: 9; }
+.ten { flex-basis: 81.3%; flex-grow: 10; }
+.eleven { flex-basis: 89.63%; flex-grow: 11; }
+.twelve { flex-basis: 98%; flex-grow: 12; }
 .clear {
 	width: 100%;
 	border: none;
