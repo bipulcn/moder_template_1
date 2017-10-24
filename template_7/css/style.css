@@ -1,1 +1,6 @@
 h1, h2, h3, h4, h5, h6 { padding: 0; margin: 0; }
+.bdr { border: thin solid var(--c23); padding: 10px; }
+qt{
+}
+qt:before { content: "\201C"; font-size: 1.2em; color: gray; }
+qt:after { content: "\201D"; font-size: 1.2em; color: gray; }
