@@ -2,7 +2,7 @@ html, body {
 	margin:0;
 	padding: 0;
 }
-h1, div {margin: 0; padding: 0; background: deepskyblue;}
+h1 {margin: 0; background: deepskyblue;}
 .container {
 	width: 90%;
 	margin: 0 auto;
@@ -56,28 +56,28 @@ h1, div {margin: 0; padding: 0; background: deepskyblue;}
 	background: lightgreen;
 }
 .f_col_8 {
-	flex-grow: 1;
+	flex-grow: 8;
   	flex-basis: 62%;
 	background: chocolate;
 }
 .f_col_9 {
-	flex-grow: 1;
+	flex-grow: 9;
   	flex-basis: 72%;
 	background: gray;
 }
 .f_col_10 {
-	flex-grow: 1;
+	flex-grow: 10;
   	flex-basis: 78%;
 	background: gray;
 }
 .f_col_11 {
-	flex-grow: 1;
+	flex-grow: 11;
   	flex-basis: 86%;
 	background: gray;
 }
 .f_col_12 {
-  	flex-basis: 96%;
 	flex-grow: 12;
+  	flex-basis: 96%;
 	background: silver;
 }
 
