@@ -5,7 +5,7 @@
   display: flex;
   flex-wrap: wrap;
 }
-.column {
+.col {
   padding: 1%;
 }
 .one { flex-basis: 6.33%; flex-grow: 1;}

@@ -12,10 +12,10 @@
   <?php include_once('./php/style.php') ?>
   <body>
     <div class="container">
-      <div class="column two topbar cl5 ihome">
+      <div class="col two topbar cl5 ihome">
           head and
       </div>
-      <div class="column ten topbar cl4">
+      <div class="col ten topbar cl4">
         <ul>
           <li>
             test
@@ -23,7 +23,7 @@
         </ul>
       </div>
       <hr class="clear">
-      <div class="column two cl1 leftMenu">
+      <div class="col two cl1 leftMenu">
           <ul>
               <li>MAIN NAVIGATION</li>
               <li>
@@ -57,10 +57,10 @@
               <li><a href="#"><i class=""></i> <span>Information</span></a></li>
             </ul>
       </div>
-      <div class="column ten cl6 rightContent">
+      <div class="col ten cl6 rightContent">
         <div class="container maincotent">
             <div class="container" id="tab_1">
-              <div class="column six">
+              <div class="col six">
                   <b>How to use:</b>
 
                   <p>Exactly like the original bootstrap tabs except you should use
@@ -76,7 +76,7 @@
           </div>
         </div>
         <div class="container cl3 footer">
-          <div class="column twelve">
+          <div class="col twelve">
             <div class="content">
               this is atst. by bipul.
             </div>
