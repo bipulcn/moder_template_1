@@ -1,0 +1,8 @@
+.img_r img {
+	width: 50%;
+	/*padding: 0 50px 0 0;	*/
+}
+.img_r div {
+	width: 46%;
+	padding: 10px 2%;
+}

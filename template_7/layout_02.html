@@ -4,17 +4,25 @@
 	<title>Flex example</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="./css/layout.css">
+	<link rel="stylesheet" type="text/css" href="./css/colors.css">
 	<link rel="stylesheet" type="text/css" href="./css/layout_ext.css">
 	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="stylesheet" type="text/css" href="./css/custom01.css">
 </head>
 <body>
 <div class="col_12 col"><h1 class="brb">পরীক্ষামূলক কার্যকলাপ</h1></div>
 <div class="f_hold">
-	<div class="col_6 col mid"><h1>It will be on center</h1></div>
-	<hr class="clear">
-	<div class="col_5 col rgt"><h2>Another left.</h2></div>
-	<hr class="clear">
-	<div class="col_5 col"><h2>Another left.</h2></div>
+	<div class="f_col_4 col"><img class="img_p" src="imgs/img1.jpg"><h1 class="c11">It will be on center</h1></div>
+	<div class="f_col_3 col"><img class="img_p" src="imgs/img1.jpg"><h1 class="c12">Another left.</h1></div>
+	<div class="f_col_5 col"><img class="img_p" src="imgs/img1.jpg"><h1 class="c13">Another left.</h1></div>
+	<div class="f_col_3 col c12"><img class="img_p" src="imgs/img1.jpg"><h1>Another left.</h1></div>
+	<div class="f_col_5 col c13"><img class="img_p" src="imgs/img1.jpg"><h1>Another left.</h1></div>
+	<div class="f_col_4 col c11"><img class="img_p" src="imgs/img1.jpg"><h1>It will be on center</h1></div>
+	<div class="f_col_4 col"><div class="img_c"><img src="imgs/img1.jpg"></div><div>It will be on center</div></div>
+	<div class="f_col_3 col"><div class="img_c"><img src="imgs/img1.jpg"></div><div>Another left.</div></div>
+	<div class="f_col_5 col"><div class="img_c"><img src="imgs/img1.jpg"></div><div>Another left.</div></div>
+	<dir class="f_col_12 col"><hr class="content" data-txt="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.">
+	<div data-image="../imgs/img1.jpg" ></div></dir>
 </div>
 </body>
 </html>
