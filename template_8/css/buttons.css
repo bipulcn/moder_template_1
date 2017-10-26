@@ -1,0 +1,26 @@
+.bs-component {  }
+.btn { text-align: center; display: inline-block; text-transform: uppercase; font-size: 0.7em; cursor: pointer; padding: 1.0em; text-decoration: none; border-radius: 0.3em; color: var(--b2); }
+.btn-default { border: thin solid rgba(0,0,0,0.1); }
+.btn-primary { background: var(--c21); }
+.btn-success { background: var(--c22); }
+.btn-info { background: var(--c23); }
+.btn-warning { background: var(--c24); }
+.btn-danger { background: var(--c25); }
+.btn-link {  }
+.btn-default:hover { border: thin solid var(--c34); color: var(--c13); }
+.btn-primary:hover { background: var(--c11); color: var(--w1); text-shadow: none; }
+.btn-success:hover { background: var(--c12); color: var(--w1); text-shadow: none; }
+.btn-info:hover { background: var(--c13); color: var(--w1); text-shadow: none; }
+.btn-warning:hover { background: var(--c14); color: var(--w1); text-shadow: none; }
+.btn-danger:hover { background: var(--c15); color: var(--w1); text-shadow: none; }
+.btn-link:hover { color: var(--c13);  }
+
+.disabled { pointer-events: none; opacity: 0.75; }
+
+.btn-lg { padding: 1.6em; }
+.btn-sm { padding: 0.7em; }
+.btn-xs { padding: 0.4em; }
+
+.btn-block { display: block; }
+.btn-group { display: inline-flex; flex-wrap: wrap; border: thin solid var(--b4); border-radius: 0.3em; }
+.btn-group>.btn { border-radius: 0; border: none; border-right: thin solid var(--b4); }
