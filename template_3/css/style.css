@@ -23,18 +23,26 @@ ul, h1, h2, h3, h4, h5, h6 {
 }
 .datas {
   color: rgba(255,255,255, 0.95);
-  background: rgba(25, 25, 25, 0.75);
-  border-left: 1px solid rgba(255,255,255,0.5);
+  background: rgba(25, 25, 25, 0.75);  
 }
 .lines {
   text-align: right;
   color: rgba(255,255,255, 0.2);
-  border-right: 1px solid orange;
-  line-height: 1.8em;
+  border-right: 1px dotted rgba(255,255,255, 0.2);
   font-size: 0.8em;
 }
-.one { width: calc(3.33% - 1px) !important; padding: 1% !important; }
-.nine { width: calc(75% - 1px) !important; padding: 0% !important;}
+.fileContent {
+  line-height: 1.5em;
+  padding-left: 8px;
+}
+/*.maxHeight { background: rgba(25,25,25,0.95); }*/
+.nopadding { padding: 0; margin: 0; }
+.one { width: calc(5.33% - 2% - 1px) !important; padding: 0 1% !important; }
 .datas .two, .datas .one, .datas .eleven {
   background: rgba(25, 25, 25, 0.95);
 }
+.filename { padding: 2px 8px; }
+.margin { width: calc(0.5% - 1px); background: rgba(25, 25, 25, 0.85); cursor: col-resize; 
+  border-right: 1px solid rgba(255,255,255,0.075); }
+.left { min-height: 100vh; }
+.right { padding: 0% !important; }
