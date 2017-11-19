@@ -24,7 +24,7 @@
 							{{$index+1}}
 						</div>
 						<div class="column eleven">
-							<div class="fileContent">{{v}}</div>
+							<div class="fileContent" contenteditable="true" ng-keypress="keyPressed()">{{v}}</div>
 						</div>
 					</div>
 				</div>
@@ -47,19 +47,20 @@
 			$scope.rightBar = {width: (80+$scope.size)+'%'};
 		};
 		$scope.content = [];
-		$scope.content.push("Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.");
+		$scope.content.push("/*Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.*/");
 		$scope.content.push("");
 		$scope.content.push("Adding another line");
 		$scope.content.push("<line>");
 		$scope.content.push(" ");
 		$scope.content.push("   ");
 		$scope.content.push("     ");
-		$scope.content.push("1");
+		$scope.content.push("<b>its Bold</b>                1");
 		$scope.content.push(";");
 		$scope.content.push("####");
 		$scope.content.push("12");
 		$scope.content.push("43");
 		$scope.content.push("....");
+		$scope.keyPressed = function(){ console.log("key pressed"); }
 	}]);
 </script>
 </html>
