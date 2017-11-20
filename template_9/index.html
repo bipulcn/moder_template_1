@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./css/colors.css">
+<link rel="stylesheet" href="./css/layout.css">
+<!-- <link rel="stylesheet" href="./css/layout_ext.css"> -->
+<link rel="stylesheet" href="./css/style.css">
+<link rel='stylesheet' href='./css/css.css?family=Open+Sans'>
+<link rel="stylesheet" href="./css/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5 {font-family: "Open Sans", sans-serif}
+</style>
+<body class="">
+
+<!-- Navbar -->
+<div class="f_hold">
+ <div class="f_col_12 topbar">
+  <a class="mob" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="#" class=""><i class="fa fa-home"></i>Logo</a>
+  <a href="#" class="" title="News"><i class="fa fa-globe"></i></a>
+  <a href="#" class="" title="Account Settings"><i class="fa fa-user"></i></a>
+  <a href="#" class="" title="Messages"><i class="fa fa-envelope"></i></a>
+  <div class="drop">
+    <button class="drop-button" title="Notifications"><i class="fa fa-bell"></i><span class="">3</span></button>     
+    <div class="drop-list" style="width:300px">
+      <a href="#" class="">One new friend request</a>
+      <a href="#" class="">John Doe posted on your wall</a>
+      <a href="#" class="">Jane likes your post</a>
+    </div>
+  </div>
+  <a href="#" class="pos-right" title="My Account"><img src="./img/avatar2.png" class="img-circle" style="height:25px;width:25px" alt="Avatar"></a>
+ </div>
+</div>
+
+<!-- Navbar on small screens -->
+<div id="navDemo" class="mob">
+  <a href="#" class="">Link 1</a>
+  <a href="#" class="">Link 2</a>
+  <a href="#" class="">Link 3</a>
+  <a href="#" class="">My Profile</a>
+</div>
+
+<!-- Page Container -->
+<div class="f_hold" style="max-width:1400px;">    
+  <!-- The Grid -->
+  <div class="f_col_12 f_hold">
+    <!-- Left Column -->
+    <div class="f_col_3 col">
+      <!-- Profile -->
+      <div class="card">
+        <div class="">
+         <h4 class="tx_center">My Profile</h4>
+         <p class="tx_center"><img src="./img/avatar3.png" class="img-circle" style="height:106px;width:106px" alt="Avatar"></p>
+         <hr>
+         <p><i class="fa fa-pencil fa-fw"></i> Designer, UI</p>
+         <p><i class="fa fa-home fa-fw"></i> London, UK</p>
+         <p><i class="fa fa-birthday-cake fa-fw"></i> April 1, 1988</p>
+        </div>
+      </div>
+      <br>
+      
+      <!-- Accordion -->
+      <div class="card">
+        <div class="">
+          <button onclick="myFunction('Demo1')" class=""><i class="fa fa-circle-o-notch fa-fw"></i> My Groups</button>
+          <div id="Demo1" class="">
+            <p>Some text..</p>
+          </div>
+          <button onclick="myFunction('Demo2')" class=""><i class="fa fa-calendar-check-o fa-fw"></i> My Events</button>
+          <div id="Demo2" class="">
+            <p>Some other text..</p>
+          </div>
+          <button onclick="myFunction('Demo3')" class=""><i class="fa fa-users fa-fw"></i> My Photos</button>
+          <div id="Demo3" class="">
+         <div class="">
+         <br>
+           <div class="">
+             <img src="./img/lights.jpg" style="width:100%" class="">
+           </div>
+           <div class="">
+             <img src="./img/nature.jpg" style="width:100%" class="">
+           </div>
+           <div class="">
+             <img src="./img/mountains.jpg" style="width:100%" class="">
+           </div>
+           <div class="">
+             <img src="./img/forest.jpg" style="width:100%" class="">
+           </div>
+           <div class="">
+             <img src="./img/nature.jpg" style="width:100%" class="">
+           </div>
+           <div class="">
+             <img src="./img/fjords.jpg" style="width:100%" class="">
+           </div>
+         </div>
+          </div>
+        </div>      
+      </div>
+      <br>
+      
+      <!-- Interests --> 
+      <div class="card">
+        <div class="">
+          <p>Interests</p>
+          <p>
+            <span class="">News</span>
+            <span class="">W3Schools</span>
+            <span class="">Labels</span>
+            <span class="">Games</span>
+            <span class="">Friends</span>
+            <span class="">Games</span>
+            <span class="">Friends</span>
+            <span class="">Food</span>
+            <span class="">Design</span>
+            <span class="">Art</span>
+            <span class="">Photos</span>
+          </p>
+        </div>
+      </div>
+      <br>
+      
+      <!-- Alert Box -->
+      <div class="card">
+        <span onclick="this.parentElement.style.display='none'" class="">
+          <i class="fa fa-remove"></i>
+        </span>
+        <p><strong>Hey!</strong></p>
+        <p>People are looking at your profile. Find out who.</p>
+      </div>
+    
+    <!-- End Left Column -->
+    </div>
+    
+    <!-- Middle Column -->
+    <div class="f_col_7 col">
+    
+      <div class="card">
+        <div class="">
+          <div class="">
+            <div class="">
+              <h6 class="">Social Media template by w3.css</h6>
+              <p contenteditable="true" class="">Status: Feeling Blue</p>
+              <button type="button" class=""><i class="fa fa-pencil"></i>  Post</button> 
+            </div>
+          </div>
+        </div>
+      </div>
+      <br >
+      <div class="card"><br>
+        <img src="./img/avatar2.png" alt="Avatar" class="img-circle" style="width:60px">
+        <span class="">1 min</span>
+        <h4>John Doe</h4><br>
+        <hr class="">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <div class="" style="margin:0 -16px">
+            <div class="">
+              <img src="./img/lights.jpg" style="width:100%" alt="Northern Lights" class="">
+            </div>
+            <div class="">
+              <img src="./img/nature.jpg" style="width:100%" alt="Nature" class="">
+          </div>
+        </div>
+        <button type="button" class=""><i class="fa fa-thumbs-up"></i>  Like</button> 
+        <button type="button" class=""><i class="fa fa-comment"></i>  Comment</button> 
+      </div>
+      
+      <div class="card"><br>
+        <img src="./img/avatar5.png" alt="Avatar" class="img-circle" style="width:60px">
+        <span class="">16 min</span>
+        <h4>Jane Doe</h4><br>
+        <hr class="">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <button type="button" class=""><i class="fa fa-thumbs-up"></i>  Like</button> 
+        <button type="button" class=""><i class="fa fa-comment"></i>  Comment</button> 
+      </div>  
+
+      <div class="card"><br>
+        <img src="./img/avatar6.png" alt="Avatar" class="img-circle" style="width:60px">
+        <span class="">32 min</span>
+        <h4>Angie Jane</h4><br>
+        <hr class="">
+        <p>Have you seen this?</p>
+        <img src="./img/nature.jpg" style="width:100%" class="">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <button type="button" class=""><i class="fa fa-thumbs-up"></i>  Like</button> 
+        <button type="button" class=""><i class="fa fa-comment"></i>  Comment</button> 
+      </div> 
+      
+    <!-- End Middle Column -->
+    </div>
+    
+    <!-- Right Column -->
+    <div class="f_col_2 col">
+      <div class="card">
+        <div class="">
+          <p>Upcoming Events:</p>
+          <img src="./img/forest.jpg" alt="Forest" style="width:100%;">
+          <p><strong>Holiday</strong></p>
+          <p>Friday 15:00</p>
+          <p><button class="">Info</button></p>
+        </div>
+      </div>
+      <br>
+      
+      <div class="card">
+        <div class="">
+          <p>Friend Request</p>
+          <img src="./img/avatar6.png" alt="Avatar" style="width:50%"><br>
+          <span>Jane Doe</span>
+          <div class="">
+            <div class="">
+              <button class="" title="Accept"><i class="fa fa-check"></i></button>
+            </div>
+            <div class="">
+              <button class="" title="Decline"><i class="fa fa-remove"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      
+      <div class="">
+        <p>ADS</p>
+      </div>
+      <br>
+      
+      <div class="card">
+        <p><i class="fa fa-bug"></i></p>
+      </div>
+      
+    <!-- End Right Column -->
+    </div>
+    
+  <!-- End Grid -->
+  </div>
+  
+<!-- End Page Container -->
+</div>
+<br>
+
+<!-- Footer -->
+<footer class="">
+  <h5>Footer</h5>
+</footer>
+
+<footer class="">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+ 
+<script>
+// Accordion
+function myFunction(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+        x.previousElementSibling.className += " w3-theme-d1";
+    } else { 
+        x.className = x.className.replace("w3-show", "");
+        x.previousElementSibling.className = 
+        x.previousElementSibling.className.replace(" w3-theme-d1", "");
+    }
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html> 
