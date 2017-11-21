@@ -5,7 +5,9 @@ hr { border:none; border-top: thin solid var(--b5); }
 .topbar { background: var(--c21); height: 50px; overflow: hidden; }
 .topbar a { text-decoration: none; color: var(--w1); text-shadow: none; padding: 12px 20px; margin: 0; font-size: 1.2em; float: left; }
 .drop { display: inline; }
-.drop .drop-list { visibility: hidden; position: absolute;}
+.drop .drop-list { visibility: hidden; position: absolute; left: 10%;}
 .drop:hover .drop-list { visibility: visible; }
 .pos-right { float: right !important; }
 .drop-button { border:none; padding: 15px 20px; font-size: 1.2em; color: var(--w1); }
+.drop-list a { font-size: 1em; background: var(--c12); width: 100%; margin-top:-2px; text-shadow: 1px 1px 0 var(--b4); }
+.drop-list a:hover { background:var(--c14); border-left: 10px solid var(--c15); padding-left: 10px; box-shadow: 0 0 4px var(--b4); }
