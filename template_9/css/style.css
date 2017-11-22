@@ -1,13 +1,24 @@
 hr { border:none; border-top: thin solid var(--b5); }
-.card {	padding: 10px; background: var(--w1); border-radius: 5px; box-shadow: 0 1px 15px -1px var(--b3); }
+.f_col_7 {  padding: calc(1.5*var(--pd)) 0; }
+.card {	padding: 10px; background: var(--w1); box-shadow: 0 1px 15px -1px var(--b3); }
+.round { border-radius: 5px; }
 .img-circle { border-radius: 100%; }
 .tx_center { text-align: center; }
 .topbar { background: var(--c21); height: 50px; overflow: hidden; }
 .topbar a { text-decoration: none; color: var(--w1); text-shadow: none; padding: 12px 20px; margin: 0; font-size: 1.2em; float: left; }
 .drop { display: inline; }
-.drop .drop-list { visibility: hidden; position: absolute; left: 10%;}
+.drop .drop-list { visibility: hidden; position: absolute; left: 22%; box-shadow: 15px 5px 10px var(--b3); }
 .drop:hover .drop-list { visibility: visible; }
 .pos-right { float: right !important; }
-.drop-button { border:none; padding: 15px 20px; font-size: 1.2em; color: var(--w1); }
+.drop-button { border:none; padding: 15px 20px; font-size: 1.2em; color: var(--w1); background: none; }
 .drop-list a { font-size: 1em; background: var(--c12); width: 100%; margin-top:-2px; text-shadow: 1px 1px 0 var(--b4); }
 .drop-list a:hover { background:var(--c14); border-left: 10px solid var(--c15); padding-left: 10px; box-shadow: 0 0 4px var(--b4); }
+.cont_input { border: thin solid var(--b5); padding: 5px 10px; }
+.btn-gen { padding: 12px 20px; background:var(--c21); border:none; color:var(--w1); }
+.btn-full { padding: 12px; border: none; width: 100%; background: var(--c21); color: var(--w1); }
+.no-pad { padding: 0; }
+.w3-show { visibility: visible !important; display: block !important; }
+.w3-hide { visibility: hidden; display: none; }
+.btn-grn { background: var(--c22); }
+.btn-red { background: var(--c25); }
+.col img { width: 100%; }
