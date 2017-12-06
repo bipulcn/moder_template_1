@@ -21,4 +21,4 @@ hr { border:none; border-top: thin solid var(--b5); }
 .w3-hide { visibility: hidden; display: none; }
 .btn-grn { background: var(--c22); }
 .btn-red { background: var(--c25); }
-.col img { width: 100%; }
+.col img { width: 98%; }
