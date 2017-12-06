@@ -7,11 +7,7 @@ a {  text-decoration:none; color: var(--b2); }
 .left_menu a:hover { background: var(--b3); color: var(--w1); text-shadow: none; }
 .left_menu i { padding: 10px; }
 .left_menu .active { background: var(--c21); color: var(--w1); text-shadow: none; }
-.c_r, .c_b, .c_g, .c_o { margin-left: 10px; text-shadow: none; color: var(--w1); }
-.c_r { background: var(--c15) !important; }
-.c_b { background: var(--c11) !important; }
-.c_g { background: var(--c12) !important; }
-.c_o { background: var(--c14) !important; }
+.c_crd { margin-right: 10px; text-shadow: none; color: var(--w1); }
 .card h3 { text-align: right; font-size: 1.5em; font-weight: 100; }
 .card h4 { font-size: 1.4em; font-weight: 100; padding:10px; margin: 0; }
 .card .icon { font-size: 3em; }
@@ -21,15 +17,26 @@ a {  text-decoration:none; color: var(--b2); }
 .tbr td { border-bottom: thin solid var(--b4); }
 .icon { text-align: center; }
 .table tr:nth-child(odd) { background: var(--b5); }
+.table tr:nth-child(even) { background: var(--w1); }
 .c-b { color: var(--c11); }
 .c-g { color: var(--c12); }
 .c-r { color: var(--c15); }
 .c-y { color: var(--c14); }
 .c-o { color: var(--c13); }
-.bg-b { background: var(--c11); }
-.bg-g { background: var(--c12); }
-.bg-r { background: var(--c15); }
-.bg-y { background: var(--c14); }
-.bg-o { background: var(--c13); }
+.bg-b { background: var(--c11) !important; }
+.bg-g { background: var(--c12) !important; }
+.bg-r { background: var(--c15) !important; }
+.bg-y { background: var(--c14) !important; }
+.bg-o { background: var(--c13) !important; }
+.bg-gr { background: var(--b3) !important; text-shadow: none; color: var(--w1); }
 .loder { width: 100%; background: var(--b4); }
 .loder>div { padding: 10px; text-align: center; }
+.u_li { margin: 0; padding: 0; box-shadow: 0 0 15px 0 var(--b4); background: var(--w1); }
+.u_li img { margin-top: -5px; background: var(--c54); float: left; }
+.u_li span { padding: 10px; margin: 0; font-size: 1.4em; }
+.u_li li { display:block; border-bottom: 1px solid var(--b5); padding: 20px 15px; }
+.b_bar { padding: 10px 0; }
+.b_g { border-bottom: 5px solid var(--c12); }
+.b_b { border-bottom: 5px solid var(--c11); }
+.b_r { border-bottom: 5px solid var(--c14); }
+.content { background: rgba(100,100,100,0.05); }
