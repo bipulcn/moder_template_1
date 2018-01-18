@@ -1,0 +1,4 @@
+.left_menu { background: rgba(44, 62, 80, 0.9); }
+.left_menu ul, .left_menu li { margin: 0; padding: 0; }
+.left_menu li { list-style: none; }
+.left_menu a { text-decoration: none; color: var(--w2); text-shadow: 1px 1px 1px var(--b1); }
