@@ -10,13 +10,6 @@
 	<link rel="stylesheet" type="text/css" href="./css/animate.css">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
 	<script type="text/javascript" src="./js/angular.min.js"></script>
-	<script type="text/javascript" src="./js/angular-cookies.min.js"></script>
-
-	<script type="text/javascript" src="./js/CSSPlugin.min.js"></script>
-	<script type="text/javascript" src="./js/EasePack.min.js"></script>
-	<script type="text/javascript" src="./js/TweenLite.min.js"></script>
-	
-	<script type="text/javascript" src="./js/anime.min.js"></script>
 	<script type="text/javascript" src="./js/ang-check.js"></script>
 </head>
 <body ng-controller='tmpController'>
@@ -25,14 +18,14 @@
 			<img src="./img/journalist.svg" class="img-circle" style="width:50%; margin: 5% 25%; " alt="Avatar">
 	    <ul>
 	      <li>{{enable}}
-		      <a ng-class="{active:submenu[0]}" href="#" class="" ng-click="submenu[0]=!submenu[0]; myclass='flipInX'"><i class="fa fa-home"></i> Product</a>
-	        <ul ng-show='submenu[0]' class="animated" ng-class='myclass'>
+		      <a ng-class="{active:submenu[0]}" href="#" class="" ng-click="submenu[0]=!submenu[0]; myclass[0]='flipInX'"><i class="fa fa-home"></i> Product</a>
+	        <ul ng-show='submenu[0]' class="animated" ng-class='myclass[0]'>
 	          <li><a href="#" class="" title="New Product"><i class="fa fa-shopping-cart"></i> Product List</a></li>
 	        </ul>
 	      </li>
 	            <li>
-	        <a href="#" ng-class="{active:submenu[1]}" ng-click='submenu[1]=!submenu[1]'><i class="fa fa-home"></i> Product Manage</a>
-	        <ul ng-show='submenu[1]'>
+	        <a href="#" ng-class="{active:submenu[1]}" ng-click="submenu[1]=!submenu[1]; myclass[1]='flipInX'"><i class="fa fa-home"></i> Product Manage</a>
+	        <ul ng-show='submenu[1]' class="animated" ng-class='myclass[1]'>
 	          <li><a href="#" class="" title="New Product"><i class="fa fa-xing"></i> New Product</a></li>
 	          <li><a href="#" class="" title="New Product"><i class="fa fa-calendar-check-o"></i> New Property</a></li>
 	          <li><a href="#" class="" title="Product Images"><i class="fa fa-file-image-o"></i> Product Image</a></li>
@@ -42,16 +35,16 @@
 	        </ul>
 	      </li>
 				<li>
-	        <a href="#" ng-class="{active:submenu[2]}" ng-click='submenu[2]=!submenu[2]'><i class="fa fa-eercast"></i> user</a>
-	        <ul ng-show='submenu[2]'>
+	        <a href="#" ng-class="{active:submenu[2]}" ng-click="submenu[2]=!submenu[2]; myclass[2]='flipInX'"><i class="fa fa-eercast"></i> user</a>
+	        <ul ng-show='submenu[2]' class="animated" ng-class='myclass[2]'>
 						<li><a href="#" class=""><i class="fa  fa-users fa-fw"></i> Manage User</a></li>
 	          <li><a href="#" class=""><i class="fa fa-address-card-o"></i> New User</a></li>
 					</ul>
 	      </li>
 	      <li><a href="#" class=""><i class="fa fa-diamond fa-fw"></i> Orders</a></li>
 	      <li><a href="#" class=""><i class="fa fa-bell fa-fw"></i> News</a></li>
-				<li><a href="#" ng-class="{active:submenu[3]}" ng-click='submenu[3]=!submenu[3]'><i class="fa fa-bank fa-fw"></i> General</a>
-	        <ul ng-show='submenu[3]'>
+				<li><a href="#" ng-class="{active:submenu[3]}" ng-click="submenu[3]=!submenu[3]; myclass[3]='flipInX'"><i class="fa fa-bank fa-fw"></i> General</a>
+	        <ul ng-show='submenu[3]' class="animated" ng-class='myclass[3]'>
 	          <li><a href="#" class=""><i class="fa fa-history fa-fw"></i> History</a></li>
 	          <li><a href="#" class=""><i class="fa fa-cog fa-fw"></i> Settings</a></li>
 	          <li><a href="#" class=""><i class="fa fa-sign-out fa-fw"></i> Logout</a></li>
@@ -97,11 +90,11 @@
 							</section>
 				    </div>
 						<div class="f_col_4 col">
-							<div ng-class='myclass' class="animated">
-								This is another test {{myclass}}
+							<div ng-class='testAnime' class="animated">
+								This is another test
 							</div>
-							<button type="button" ng-click="myclass='bounce'" name="button">Clicked</button>
-							<button type="button" ng-click="myclass='flipInX'" name="button">Clicked</button>
+							<button type="button" ng-click="testAnime='bounce'" name="button">Clicked</button>
+							<button type="button" ng-click="testAnime='flipInX'" name="button">Clicked</button>
 							<section class="wrapper">
 						    <div class="ball"></div>
 							</section>
@@ -114,24 +107,5 @@
 			</div>
 		</div>
 	</div>
-	<style media="screen">
-	.wrapper {
-	    height: 100vh;
-	    width: 100%;
-	    position: relative;
-	    overflow: hidden;
-	}
-
-	.ball {
-	    height: 200px;
-	    width: 200px;
-			margin: 0 auto;
-	    left: calc(50% - 100px);
-	    background-color: darkblue;
-	    border-radius: 50%;
-			box-shadow: inset -1px 5px 20px -1px var(--w3), inset 10px -50px 100px -10px var(--b1);
-	}
-		/*html { background: url('./tmpimg/dashboard.jpg') center top no-repeat; background-size: contain;}*/
-	</style>
 </body>
 </html>

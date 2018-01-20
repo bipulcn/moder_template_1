@@ -1,0 +1,13 @@
+.topbar { height: 46px; background: var(--c24); position: fixed; top:0; width: 84.666%; box-shadow: 0 5px 12px -5px var(--b4); z-index: 1;}
+.fulllen { width: 100%; }
+.left_menu { background: var(--b5); }
+.left_menu ul, .left_menu li { margin: 0; padding: 0; }
+.left_menu li { list-style: none; }
+.left_menu a { text-decoration: none; color: var(--b1); text-shadow: 0 0 0 var(--b1); display: block; font-size: 0.8em; }
+.left_menu a:hover { color: var(--c14); text-shadow: 1px 1px 1px var(--b3); }
+.left_menu i { margin: auto 5px; text-shadow: 0 0 0 var(--b3); color: var(--b5); }
+.left_menu li>ul i { margin: auto 0px; }
+.left_menu li>ul { margin-left: 10px; border-left: thin solid var(--w4); padding-left: 5px; box-shadow: -2px 0 1px -1px var(--b4); }
+
+.topbar a { height: 40px; padding: 3px; display: inline-block; }
+.topbar a>i { margin: 10px; }

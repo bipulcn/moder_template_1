@@ -1,0 +1,14 @@
+body {background: var(--b5);}
+.content { margin-top: 46px; }
+.footer {background: var(--c35); }
+
+.img-circle { border-radius: 100%;}
+.avat-sml { height:40px;width:40px;}
+.logo  { height:40px;}
+.image { width: 96%; padding: 2%; box-shadow: 0 0 10px -2.5px var(--b2); background: var(--w1); border: thin solid var(--w4); }
+.frgt {float: right;}
+.flft {float: left;}
+.fltr { filter: grayscale(0.5); transition: filter 0.5s; }
+.fltr:hover { filter: grayscale(0);}
+.active { font-weight: 800; }
+.hideit { visibility: hidden;  display: none; }
