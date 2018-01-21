@@ -1,0 +1,9 @@
+.logo, .menutop {display: inline-block;}
+.logo h1 {font-size: 2.1em; margin: 0; padding: 0; text-align: center; text-transform: uppercase; letter-spacing: 0.4em;}
+.logo div { text-transform: uppercase; font-size: 0.65em;}
+.flft { float: left;}
+.frgt { float: right; }
+.menutop ul, .menutop li {margin: 0;}
+.menutop li { list-style: none; float: left; text-transform: uppercase;}
+.menutop a { text-decoration: none; color: var(--b3); padding: 27px 20px; font-size: 0.9em;}
+.menutop a:hover { text-decoration: none; color: var(--b3); padding: 27px 20px 20px 20px; color: orange;}

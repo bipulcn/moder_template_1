@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html ng-app='tmpApp'>
 <head>
-	<title>font awesome</title>
+	<title>Template DEsign</title>
 	<link rel="stylesheet" type="text/css" href="./css/colors.css">
 	<link rel="stylesheet" type="text/css" href="./css/layout.css">
 	<!-- <link rel="stylesheet" type="text/css" href="./css/layout_ext.css"> -->
@@ -17,14 +17,14 @@
     <div class="f_col_2 left_menu" ng-class='{hideit: enable}'>
 			<img src="./img/journalist.svg" class="img-circle" style="width:50%; margin: 5% 25%; " alt="Avatar">
 	    <ul>
-	      <li>{{enable}}
-		      <a ng-class="{active:submenu[0]}" href="#" class="" ng-click="submenu[0]=!submenu[0]; myclass[0]='flipInX'"><i class="fa fa-home"></i> Product</a>
+	      <li>
+		      <a ng-class="{active:submenu[0]}" href="#" class="" ng-click="submenu[0]=!submenu[0]; myclass[0]='fadeIn'"><i class="fa fa-home"></i> Product</a>
 	        <ul ng-show='submenu[0]' class="animated" ng-class='myclass[0]'>
 	          <li><a href="#" class="" title="New Product"><i class="fa fa-shopping-cart"></i> Product List</a></li>
 	        </ul>
 	      </li>
 	            <li>
-	        <a href="#" ng-class="{active:submenu[1]}" ng-click="submenu[1]=!submenu[1]; myclass[1]='flipInX'"><i class="fa fa-home"></i> Product Manage</a>
+	        <a href="#" ng-class="{active:submenu[1]}" ng-click="submenu[1]=!submenu[1]; myclass[1]='fadeIn'"><i class="fa fa-home"></i> Product Manage</a>
 	        <ul ng-show='submenu[1]' class="animated" ng-class='myclass[1]'>
 	          <li><a href="#" class="" title="New Product"><i class="fa fa-xing"></i> New Product</a></li>
 	          <li><a href="#" class="" title="New Product"><i class="fa fa-calendar-check-o"></i> New Property</a></li>
@@ -35,7 +35,7 @@
 	        </ul>
 	      </li>
 				<li>
-	        <a href="#" ng-class="{active:submenu[2]}" ng-click="submenu[2]=!submenu[2]; myclass[2]='flipInX'"><i class="fa fa-eercast"></i> user</a>
+	        <a href="#" ng-class="{active:submenu[2]}" ng-click="submenu[2]=!submenu[2]; myclass[2]='fadeIn'"><i class="fa fa-eercast"></i> user</a>
 	        <ul ng-show='submenu[2]' class="animated" ng-class='myclass[2]'>
 						<li><a href="#" class=""><i class="fa  fa-users fa-fw"></i> Manage User</a></li>
 	          <li><a href="#" class=""><i class="fa fa-address-card-o"></i> New User</a></li>
@@ -43,7 +43,7 @@
 	      </li>
 	      <li><a href="#" class=""><i class="fa fa-diamond fa-fw"></i> Orders</a></li>
 	      <li><a href="#" class=""><i class="fa fa-bell fa-fw"></i> News</a></li>
-				<li><a href="#" ng-class="{active:submenu[3]}" ng-click="submenu[3]=!submenu[3]; myclass[3]='flipInX'"><i class="fa fa-bank fa-fw"></i> General</a>
+				<li><a href="#" ng-class="{active:submenu[3]}" ng-click="submenu[3]=!submenu[3]; myclass[3]='fadeIn'"><i class="fa fa-bank fa-fw"></i> General</a>
 	        <ul ng-show='submenu[3]' class="animated" ng-class='myclass[3]'>
 	          <li><a href="#" class=""><i class="fa fa-history fa-fw"></i> History</a></li>
 	          <li><a href="#" class=""><i class="fa fa-cog fa-fw"></i> Settings</a></li>
@@ -81,23 +81,12 @@
 				    <div class="f_col_4 col">
 				      <img class='image fltr' src="./img/image1.jpg">
 				    </div>
-				    <div class="f_col_4 col">
-				      <div class="test" id="test" ng-model='test' style="background: orange;">
-								Is it testing;
-				      </div>
-							<section class="wrapper">
-						    <div class="ball"></div>
-							</section>
-				    </div>
 						<div class="f_col_4 col">
 							<div ng-class='testAnime' class="animated">
 								This is another test
 							</div>
-							<button type="button" ng-click="testAnime='bounce'" name="button">Clicked</button>
-							<button type="button" ng-click="testAnime='flipInX'" name="button">Clicked</button>
-							<section class="wrapper">
-						    <div class="ball"></div>
-							</section>
+							<button type="button" ng-click="testAnime='bounce'" name="button">Jump</button>
+							<button type="button" ng-click="testAnime='flipInX'" name="button">Flip In</button>
 						</div>
 				  </div>
 				</div>

@@ -15,7 +15,7 @@
 	<script type="text/javascript" src="./js/CSSPlugin.min.js"></script>
 	<script type="text/javascript" src="./js/EasePack.min.js"></script>
 	<script type="text/javascript" src="./js/TweenLite.min.js"></script>
-	
+
 	<script type="text/javascript" src="./js/anime.min.js"></script>
 	<script type="text/javascript" src="./js/ang-check.js"></script>
 </head>
@@ -83,18 +83,59 @@
 							<img class='image fltr' src="./img/image1.jpg">
 				    </div>
 				    <div class="f_col_4 col">
-				      <img class='image fltr' src="./img/image1.jpg">
+							<div id="lineDrawing"> <svg viewBox="0 0 280 100">
+					      <g fill="none" fill-rule="evenodd" stroke="currentColor" stroke-width="1" class="lines">
+					        <path d="M58 80V50.12C57.7 41.6 51.14 35 43 35a15 15 0 0 0 0 30h7.5v15H43a30 30 0 1 1 0-60c16.42 0 29.5 13.23 30 29.89V80H58z" stroke-dasharray="316.85528564453125" style="stroke-dashoffset: 316.855px;"></path>
+					        <path d="M73 80V20H58v60h15z" stroke-dasharray="150" style="stroke-dashoffset: 150px;"></path>
+					        <path d="M58 80V49.77C58.5 33.23 71.58 20 88 20a30 30 0 0 1 30 30v30h-15V50a15 15 0 0 0-15-15c-8.14 0-14.7 6.6-15 15.12V80H58zm75 0V20h-15v60h15z" stroke-dasharray="441.1739501953125" style="stroke-dashoffset: 441.174px;"></path>
+					        <path d="M118 80V49.77C118.5 33.23 131.58 20 148 20a30 30 0 0 1 30 30v30h-15V50a15 15 0 0 0-15-15c-8.14 0-14.7 6.6-15 15.12V80h-15zm-7.5-60a7.5 7.5 0 1 1-7.48 8v-1c.25-3.9 3.5-7 7.48-7z" stroke-dasharray="338.3053894042969" style="stroke-dashoffset: 338.305px;"></path>
+					        <path d="M133 65a15 15 0 0 1-15-15v-7.5h-15V50a30 30 0 0 0 30 30V65zm30 15V49.77C163.5 33.23 176.58 20 193 20a30 30 0 0 1 30 30v30h-15V50a15 15 0 0 0-15-15c-8.14 0-14.7 6.6-15 15.12V80h-15z" stroke-dasharray="406.8699035644531" style="stroke-dashoffset: 406.87px;"></path>
+					        <path d="M238 65a15 15 0 0 1 0-30c8.1 0 14.63 6.53 15 15h-15v15h30V49.89C267.5 33.23 254.42 20 238 20a30 30 0 0 0 0 60V65z" stroke-dasharray="301.8561706542969" style="stroke-dashoffset: 301.856px;"></path>
+					        <path d="M260.48 65a7.5 7.5 0 1 1-7.48 8v-1c.26-3.9 3.5-7 7.48-7z" stroke-dasharray="47.128875732421875" style="stroke-dashoffset: 47.1289px;"></path>
+					        <path d="M60.48 85a7.5 7.5 0 1 1-7.48 8v-1c.26-3.9 3.5-7 7.48-7z" stroke-dasharray="47.128875732421875" style="stroke-dashoffset: 47.1289px;"></path>
+					      </g>
+					    </svg> </div>
 				    </div>
 				    <div class="f_col_4 col">
-				      <img class='image fltr' src="./img/image1.jpg">
+							<div id="functionBasedPropVal">
+							  <div class="line">
+							    <div data-x="160" class="small square el"></div>
+							  </div>
+							  <div class="line">
+							    <div data-x="80" class="small square el"></div>
+							  </div>
+							  <div class="line">
+							    <div data-x="250" class="small square el"></div>
+							  </div>
+							</div>
 				    </div>
 				    <div class="f_col_4 col">
 				      <div class="test" id="test" ng-model='test' style="background: orange;">
 								Is it testing;
 				      </div>
-							<section class="wrapper">
-						    <div class="ball"></div>
-							</section>
+							<svg height="400" width="450">
+							  <path id="lineAB" d="M 100 350 l 150 -300" stroke="red"
+							  stroke-width="3" fill="none" />
+							  <path id="lineBC" d="M 250 50 l 150 300" stroke="red"
+							  stroke-width="3" fill="none" />
+							  <path d="M 175 200 l 150 0" stroke="green" stroke-width="3"
+							  fill="none" />
+							  <path d="M 100 350 q 150 -300 300 0" stroke="blue"
+							  stroke-width="5" fill="none" />
+							  <!-- Mark relevant points -->
+							  <g stroke="black" stroke-width="3" fill="black">
+							    <circle id="pointA" cx="100" cy="350" r="3" />
+							    <circle id="pointB" cx="250" cy="50" r="3" />
+							    <circle id="pointC" cx="400" cy="350" r="3" />
+							  </g>
+							  <!-- Label the points -->
+							  <g font-size="30" font-family="sans-serif" fill="black" stroke="none"
+							  text-anchor="middle">
+							    <text x="100" y="350" dx="-30">A</text>
+							    <text x="250" y="50" dy="-10">B</text>
+							    <text x="400" y="350" dx="30">C</text>
+							  </g>
+							</svg>
 				    </div>
 						<div class="f_col_4 col">
 							<div ng-class='myclass' class="animated">
@@ -115,6 +156,9 @@
 		</div>
 	</div>
 	<style media="screen">
+	.small { height: 30px; width: 30px; background: red; }
+	.circle { border-radius: 100%; }
+	.el {}
 	.wrapper {
 	    height: 100vh;
 	    width: 100%;
@@ -123,8 +167,8 @@
 	}
 
 	.ball {
-	    height: 200px;
-	    width: 200px;
+	    height: 150px;
+	    width: 150px;
 			margin: 0 auto;
 	    left: calc(50% - 100px);
 	    background-color: darkblue;

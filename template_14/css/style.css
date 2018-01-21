@@ -1,0 +1,12 @@
+html { font-family: sans-serif; font-size: 12px; }
+img { width: 100%; }
+.btn {border: none; padding: 7px 15px;margin: 7px 0;}
+.btn-primary {background: var(--c54); border: thin solid var(--c53);}
+.bbgr {border-bottom: thin solid var(--b5); }
+h1 {font-size: 3.5em;}
+.und {text-decoration: underline;}
+.mrb {margin-bottom: 30px;}
+.bld {font-weight: 800;}
+.slm {font-weight: 100;}
+.slogan {position: absolute; top: 40%; transform: scale(1, 1.5); color: var(--c13);}
+.menu { text-align: center; margin: 10px auto;}
