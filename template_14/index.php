@@ -11,7 +11,7 @@
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
 </head>
 <body ng-controller='tmpController'>
-  <div class="f_hold" style="background:url('./img/food1') 50% 0% no-repeat; background-size: cover;">
+  <div class="f_hold" style="background:url('./img/food1.jpg') 50% 0% no-repeat; background-size: cover;">
 		<div class="f_col_10" style="width: 80%;">
 			<div style="margin: 0 3% 0 17%; background: white; padding: 5px 7%;">
 				<div class="f_hold">
@@ -37,11 +37,11 @@
 					</div>
 					<div class="f_col_2">
 						<div class="menu">
-							<img src="./img/food4" alt="">
+							<img src="./img/food4.png" alt="">
 							<div>Testy Homemade Pancake</div>
 						</div>
 						<div class="menu">
-							<img src="./img/food5" alt="">
+							<img src="./img/food5.png" alt="">
 							<div>Healthy  Smothies Bowls/Drinks</div>
 						</div>
 						<div class="more">

@@ -10,8 +10,8 @@
 	<link rel="stylesheet" type="text/css" href="./css/animate.css">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
 </head>
-<body style="background:url('./img/food8') 400% -15% no-repeat;">
-  <div class="f_hold">
+<body>
+  <div class="f_hold xcol">
 		<div class="col_8 lft bbgr">
 			<div class="logo col">
 				<h1>BASIC</h1>
@@ -24,46 +24,72 @@
 				<li><a href='#'>Contact</a></li>
 			</ul>
 		</div><hr class="clear">
-		<div class="f_col_12 col">
+		<div class="f_col_12 col mrt">
 			<div class="f_hold">
-				<div class="col_8 lft">
-					<h5>Bea Resturent</h5>
-					<h1>Three breakfast ideas to control you appetite all day</h1>
-					<div>
+				<div class="col_8 lft mrb">
+					<h5 class="search mrt">Bea Resturent ______________</h5>
+					<h1 class="title">Three breakfast ideas to control you appetite all day</h1>
+					<div class="note">
 						Imagine sompling culinary delights from around the globe with leaving Las Vegas
 					</div>
 				</div><hr class="clear">
-				<div class="f_col_9">
-					<button>Book Now</button>
+				<div class="f_col_9 mrb mrt">
+					<button class="btn btn-simple rund">Book Now</button>
 				</div>
-				<div class="f_col_3">
-					<div>Watch our story <i class="fa fa-home"></i> </div>
+				<div class="f_col_3 mrb mrt">
+					<div>Watch our story <i class="fa fa-location-arrow roudbtn"></i> </div>
 				</div>
-				<div class="f_col_12">
-					<div class="f_hold">
-						<div class="f_col_4 card">
-							01 Top Breakfast list
-							<img src="./img/food4" alt="">
-							<div>Imagine sompling culnary delights from around the globe</div>
-							<a href="#">View more</a>
+				<div class="f_col_12 xcol gry mrb">
+					<div class="f_hold mrb">
+						<div class="f_col_4 col card">
+							<div class="f_hold">
+								<h3 class="f_col_12 mrb">1 Top Breakfast list</h3>
+								<div class="f_col_12 xcol msgbox">
+									<div class="f_hold">
+										<div class="f_col_5 col"><img src="./img/food4.png" alt=""></div>
+										<div class="f_col_7 col">
+											<h4>Voted Best Buffet In Las Vagas</h4>
+											<div>Imagine sompling culnary delights from around the globe</div>
+											<a href="#">View more</a>
+										</div>
+									</div>
+								</div>
+							</div>
 						</div>
-						<div class="f_col_4 card">
-							02 Top Lunch list
-							<img src="./img/food5" alt="">
-							<div>Imagine sompling culnary delights from around the globe</div>
-							<a href="#">View more</a>
+						<div class="f_col_4 col card">
+							<div class="f_hold">
+								<h3 class="f_col_12 mrb">2 Top Lunch list</h3>
+								<div class="f_col_12 xcol msgbox">
+									<div class="f_hold">
+										<div class="f_col_5 col"><img src="./img/food5.png" alt=""></div>
+										<div class="f_col_7 col">
+											<h4>Voted Best Buffet In Las Vagas</h4>
+											<div>Imagine sompling culnary delights from around the globe</div>
+											<a href="#">View more</a>
+										</div>
+									</div>
+								</div>
+							</div>
 						</div>
-						<div class="f_col_4 card">
-							03 Top Dinner list
-							<img src="./img/food6" alt="">
-							<div>Imagine sompling culnary delights from around the globe</div>
-							<a href="#">View more</a>
+						<div class="f_col_4 col card">
+							<div class="f_hold">
+								<h3 class="f_col_12 mrb">3 Top Dinner list</h3>
+								<div class="f_col_12 xcol msgbox">
+									<div class="f_hold">
+										<div class="f_col_5 col"><img src="./img/food6.png" alt=""></div>
+										<div class="f_col_7 col">
+											<h4>Voted Best Buffet In Las Vagas</h4>
+											<div>Imagine sompling culnary delights from around the globe</div>
+											<a href="#">View more</a>
+										</div>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<img src="./tmpimg/sample2" alt="" style="width: 100%; height: 100%;">
 	</div>
 </body>
 </html>

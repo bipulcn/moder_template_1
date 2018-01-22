@@ -8,6 +8,7 @@ html, body {
 .f_hold { display: flex; flex-flow: row wrap; flex-wrap: wrap; flex-flow: space-around; justify-content: flex-end; margin: 0; padding: 0; }
 
 .col { padding: calc(1.5*var(--pd)) var(--pdp); }
+.xcol { padding: calc(1.5*var(--pd)) calc(3*var(--pdp)); }
 
 .hf { min-height: 100vh; }
 
