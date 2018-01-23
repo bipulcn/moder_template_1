@@ -114,14 +114,14 @@
 								Is it testing;
 				      </div>
 							<svg height="400" width="450">
-							  <path id="lineAB" d="M 100 350 l 150 -300" stroke="red"
-							  stroke-width="3" fill="none" />
-							  <path id="lineBC" d="M 250 50 l 150 300" stroke="red"
-							  stroke-width="3" fill="none" />
-							  <path d="M 175 200 l 150 0" stroke="green" stroke-width="3"
+							  <path id="lineAB" d="M 100 350 l 150 -300" stroke="orange"
+							  stroke-width="1" fill="none" />
+							  <path id="lineBC" d="M 250 50 l 150 300" stroke="purple"
+							  stroke-width="1" fill="none" />
+							  <path d="M 175 200 l 150 0" stroke="green" stroke-width="1"
 							  fill="none" />
 							  <path d="M 100 350 q 150 -300 300 0" stroke="blue"
-							  stroke-width="5" fill="none" />
+							  stroke-width="1" fill="none" />
 							  <!-- Mark relevant points -->
 							  <g stroke="black" stroke-width="3" fill="black">
 							    <circle id="pointA" cx="100" cy="350" r="3" />
@@ -146,6 +146,12 @@
 							<section class="wrapper">
 						    <div class="ball"></div>
 							</section>
+						</div>
+						<div class="f_col_4 col">
+							<div id="svgAttributes"> <svg width="128" height="128" viewBox="0 0 128 128">
+							  <polygon points="64 68.64 8.574 100 63.446 67.68 64 4 64.554 67.68 119.426 100 " fill="currentColor"
+  style="fill:orange;fill-rule:evenodd;"></polygon>
+							</svg> </div>
 						</div>
 				  </div>
 				</div>
