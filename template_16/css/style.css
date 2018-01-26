@@ -1,0 +1,22 @@
+body { width: 100%; font-family: century gothic,Comic Sans MS, Comic Sans, cursive; font-size: 12px; background:url('../img/food8.png') 300% -10% no-repeat; }
+img { width: 100%; }
+.title { font-size: 3.5em !important; line-height: 1.3em !important; color: orange; }
+.bbgr {border-bottom: thin solid var(--b5); }
+.und {text-decoration: underline;}
+.mrb {margin-bottom: 30px;}
+.mrt {margin-top: 60px;}
+.bld {font-weight: 800;}
+.slm {font-weight: 100;}
+.search { font-size: 1.2em; color: var(--b3); }
+.title { font-size: 2.9em; line-height: 1.2em; }
+.note { font-size: 1.1em; color: var(--b4); }
+.rund {}
+.btn {border: thin solid var(--c42); border-radius: 30px; padding: 15px 30px; background: var(--c32); font-size: 0.8em; font-weight: 800; margin: 20px 10px;}
+.roudbtn { padding: 12px 13px; box-shadow: 2px 2px 10px var(--b4); border-radius: 100%; }
+.gry {background: rgba(0,0,0,0.05);}
+.msgbox {background: white; box-shadow: 0 0 20px var(--b5);}
+.msgbox h4 { margin: 0 0 10px 0; font-size: 1.2em; color: var(--b3); }
+.msgbox img {width: 80%; margin: 10%; }
+.msgbox div div div { color: var(--b4); font-weight: 600; margin: 10px 0; }
+.msgbox a { color: var(--c22); text-decoration: none; }
+.card h3 { font-size: 1.4em; color: var(--b3); }
