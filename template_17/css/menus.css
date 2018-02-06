@@ -1,0 +1,8 @@
+.menutop { margin: 0; padding: 0; margin: 20px 5px; }
+.menutop li { list-style: none; float: right; }
+.menutop a { text-decoration: none; padding: 10px; color: black; }
+
+
+.logo { background: rgba(0, 0, 0, 0.5); }
+.logo * { padding: 5px 10px; margin: 10px 0 0 20px !important; }
+.slogan div { padding: 10px 20px; }

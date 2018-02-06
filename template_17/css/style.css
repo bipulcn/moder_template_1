@@ -1,2 +1,4 @@
-html { background: url('../sam/samp1.png') 0 0 no-repeat; background-size: contain; }
+html { background: url('../sam/samp1.png') 0 100% no-repeat; background-size: contain; min-height: 215vh; }
 img { width: 80%; }
+
+.right { background: url('../img/food3.jpg') no-repeat; background-position: center; background-attachment: fixed;  }
