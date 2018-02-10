@@ -1,0 +1,8 @@
+.left_menu { border-right: thin solid var(--b5) }
+.left_menu * { margin: 0; padding: 0; }
+.left_menu li>ul { visibility: hidden; display: none; }
+.left_menu .active ul { visibility: visible; display: block; }
+.left_menu a { padding: 25px 10px 25px 30px; display: block; color: var(--b3); }
+.left_menu>ul>li { background: rgba(0,0,0,0.01); border-bottom: thin solid var(--b5); }
+.left_menu li>ul { background: rgba(0,0,0,0.01); }
+.left_menu .fa { color: var(--b2); padding-right: 10px; }

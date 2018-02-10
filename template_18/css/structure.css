@@ -1,0 +1,17 @@
+body {
+	margin:0; padding: 0; min-height: 100vh; color: var(--b2); font-size: 0.9em; text-shadow: 0 1px 1px var(--w2);
+	letter-spacing: 0.1em; word-spacing: 0.3em; line-height: 1.6em;
+	font-family: 'Raleway', 'Montserrat', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 { font-weight: 100; line-height: 1em; margin:5px 0; }
+
+h1 { font-size: calc(8 * var(--sz1)); 	line-height: 1.2em; padding: calc(13*var(--sz2)) 10px 5px 0; }
+h2 { font-size: calc(6.3 * var(--sz1)); line-height: 1.1em; padding: calc(11*var(--sz2)) 10px 5px 0;}
+h3 { font-size: calc(5.6 * var(--sz1)); line-height: 1.2em; padding: calc(9*var(--sz2)) 10px 5px 0; }
+h4 { font-size: calc(4.9 * var(--sz1)); line-height: 1.4em; padding: calc(8*var(--sz2)) 10px 5px 0; }
+h5 { font-size: calc(4 * var(--sz1)); 	line-height: 1.3em; padding: calc(7*var(--sz2)) 10px 5px 0; }
+h6 { font-size: calc(3 * var(--sz1)); 	line-height: 1.3em; padding: calc(6*var(--sz2)) 10px 5px 0; }
+:focus { outline: none; }
+input, textarea { border: thin solid var(--c17); outline: none; box-shadow: none; }
+a { cursor: pointer; text-decoration: none; color: var(--c22); }
+a:hover { color: var(--c16); }

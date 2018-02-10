@@ -1,0 +1,4 @@
+* { font-size: 0.985em; color: rgba(0,0,0,0.75); }
+.fa { padding: 5px; display: inline-block; }
+html, body { text-shadow: none;}
+html { background-size: contain; }

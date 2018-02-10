@@ -12,36 +12,26 @@
   <div class="f_hold">
 		<div class="f_col_6">
 			<div class="f_hold">
-				<div class="f_col_6 col logo"><h1>BASIC</h1><div>Fresh</div></div>
+				<div class="f_col_6 col logo"><h6>BASIC</h6><div>Fresh</div></div>
 				<div class="f_col_6 col slogan"><div>Organic Food</div></div>
 			</div>
-			<div class="f_col_12 col">
-				<h5 class="search mrt">Bea Resturent ______________</h5>
-				<h1 class="title">Three breakfast ideas to control you appetite all day</h1>
-				<div class="note">
-					Imagine sompling culinary delights from around the globe with leaving Las Vegas
-				</div>
-				<button class="btn btn-simple rund">Book Now</button>
-				<div class="f_col_4 col">
+			<div class="f_col_12 col f_hold">
+				<div class="col_10 xcol">
+					<h5 class="search mrt">Bea Resturent ______________</h5>
+					<h1 class="title">Three breakfast ideas to control you appetite all day</h1>
+					<div class="note">
+						Imagine sompling culinary delights from around the globe with leaving Las Vegas
+					</div>
+					<button class="btn btn-simple rund">Book Now</button>
 					<h3>1 Top Breakfast list</h3>
 					<div>
-						<h4>Voted Best Buffet In Las Vagas</h4>
+						<h6>Voted Best Buffet In Las Vagas</h6>
 						<div>Imagine sompling culnary delights from around the globe</div>
 						<a href="#">View more</a>
 					</div>
-				</div>
-				<div class="f_col_4 col">
 					<h3>2 Top Lunch list</h3>
 					<div>
-						<h4>Voted Best Buffet In Las Vagas</h4>
-						<div>Imagine sompling culnary delights from around the globe</div>
-						<a href="#">View more</a>
-					</div>
-				</div>
-				<div class="f_col_4 col">
-					<h3>3 Top Dinner list</h3>
-					<div>
-						<h4>Voted Best Buffet In Las Vagas</h4>
+						<h6>Voted Best Buffet In Las Vagas</h6>
 						<div>Imagine sompling culnary delights from around the globe</div>
 						<a href="#">View more</a>
 					</div>

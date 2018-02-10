@@ -1,8 +1,10 @@
-.menutop { margin: 0; padding: 0; margin: 20px 5px; }
+.menutop { margin: 0; padding: 0; margin: 20px 5px; position: fixed;  right: 0; }
 .menutop li { list-style: none; float: right; }
-.menutop a { text-decoration: none; padding: 10px; color: black; }
+.menutop a { text-decoration: none; padding: 10px; color: rgba(255,255,255,0.95); text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);}
+div { margin-bottom: 40px; }
 
-
-.logo { background: rgba(0, 0, 0, 0.5); }
+.logo { background: rgba(0, 0, 0, 0.1); }
 .logo * { padding: 5px 10px; margin: 10px 0 0 20px !important; }
+.logo h6 { margin-bottom: 0 !important; padding-bottom: 0; }
+.logo div { margin-top: 0 !important; padding-top: 0; padding-bottom: 25px; font-size: 0.8em; }
 .slogan div { padding: 10px 20px; }
