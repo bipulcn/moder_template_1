@@ -1,0 +1,24 @@
+.menu {padding: 0; margin: 0;}
+.menu li { list-style: none; float: left; padding: 0; margin:0 ; }
+.submenu { padding: 25px; }
+.submenu .logo { margin-top: 5px; }
+.submenu .menu { float: right;  margin-top: 10px; }
+.submenu a { padding: 20px; background: var(--c35); }
+.submenu input { padding: 10px; background: var(--b5); border:none; border-radius: 20px 0 0 20px; margin-top: 5px; }
+.submenu label { padding: 10px 10px 11px 10px; background: var(--b5); border-radius: 0 20px 20px 0; margin-top: 5px; }
+.topbar { background: var(--c34); margin: 0; padding:0; height: 40px; }
+.topbar a { padding: 14px 15px; background: var(--c26); line-height: 35px; }
+
+.ban { background-repeat: no-repeat !important; background-size: cover !important; background-position: 50% !important; }
+.circle { overflow: hidden; border-radius: 50%; }
+
+.ofmsg { padding-top: 10vh;}
+.bestsells img, .feature img { width: 60%; padding: 0 10%; }
+.ofmsg h3 { text-align: center; margin-bottom: 5vh; }
+.feature { background: var(--c34); }
+.bestsells { background: var(--c33); }
+/*.subscribe { background: var(--c35); }*/
+
+.feature, .bestsells, .subscribe { min-height: 80vh; padding-top: 5vh; padding-bottom: 5vh; }
+/*.ofmsg h6 { padding: 0% 10%; }*/
+.ofmsg .f_col_6>div, .ofmsg .f_col_12>div { padding: 0% 10%; }
