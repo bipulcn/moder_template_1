@@ -25,11 +25,14 @@
   </div>
   <hr class="clear">
   <div class="f_col_12 f_hold submenu">
-    <div class="f_col_2 logo"><div class="f_hold">
-      <div class="f_col_2 col"><img src="./img/girl4.jpg" style="width: 100%;" /></div>
-      <div class="f_col_5 col"><h3>VALUE</h3></div></div>
+    <div class="f_col_2 logo">
+      <!-- <div class="f_hold"> -->
+      <!-- <div class="f_col_2 col"> -->
+        <img src="./img/logo.png" />
+      <!-- </div> -->
+      <!-- <div class="f_col_5 col"><div>VALUE</div></div></div> -->
     </div>
-    <div class="f_col_7 col">
+    <div class="f_col_8 col">
       <ul class="menu" style="">
         <li><a href='#'>Home</a></li>
         <li><a href='#'>Shop</a></li>
@@ -38,18 +41,19 @@
         <li><a href='#'>Features</a></li>
       </ul>
     </div>
-    <div class="f_col_3 col"><div class="searchbox"><input type="text" name="search" placeholder="Search"><label for="search" class="fa fa-search"></label></div></div>
+    <div class="f_col_2 col"><div class="searchbox">
+      <input type="text" name="search" placeholder="Search"><label for="search" class="fa fa-search"></label></div></div>
   </div>
 </div>
 <div class="f_hold hf">
-  <div class="f_col_6 ban brr brl" style="background: url('./img/food1.jpg'); min-height: 100vh; ">
+  <div class="f_col_6 ban brr brl" style="background: url('./img/food1.jpg'); min-height: 90vh; ">
     <h1>50% off</h1>
   </div>
   <div class="f_col_6 ban">
     <div class="f_hold hf">
-      <div class="f_col_12 ban brr breb" style="background: url('./img/food2.jpg');"></div>
-      <div class="f_col_6 ban brr" style="background: url('./img/girl1.jpg');"></div>
-      <div class="f_col_6 ban brr" style="background: url('./img/girl5.jpg');"></div>
+      <div class="f_col_12 ban breb" style="background: url('./img/food2.jpg');"></div>
+      <div class="f_col_6 ban" style="background: url('./img/girl1.jpg');"></div>
+      <div class="f_col_6 ban" style="background: url('./img/girl5.jpg');"></div>
     </div>
   </div>
 </div>
@@ -58,42 +62,49 @@
     <h3>Featured Item</h3>    
   </div>
   <div class="f_col_4">
-    <h3>Subscribe Now</h3>    
+    <h3>Special offer</h3>    
   </div>
   <div class="f_col_4">
     <h3>Best Sellers</h3>    
   </div>
-  <div class="f_col_4 feature">
+  <div class="f_col_3 feature">
     <div class="f_hold">
-      <div class="f_col_6 col"><img src="./img/girl4.jpg" class="circle"><div><h6>Cusine Prenne</h6><div >$234</div></div></div>
-      <div class="f_col_6 col"><img src="./img/girl3.jpg"><div><h6>Cusine Prenne</h6><div >$234</div></div></div>
-      <div class="f_col_6 col"><img src="./img/girl8.jpg"><div><h6>Cusine Prenne</h6><div >$234</div></div></div>
-      <div class="f_col_6 col"><img src="./img/girl6.jpg"><div><h6>Cusine Prenne</h6><div >$234</div></div></div>
+      <div class="f_col_6 col product"><img src="./img/girl4.jpg"><div><h6>Cusine Prenne</h6><div >$234</div></div></div>
+      <div class="f_col_6 col product"><img src="./img/girl3.jpg"><div><h6>Cusine Prenne</h6><div >$34</div></div></div>
+      <div class="f_col_6 col product"><img src="./img/girl8.jpg"><div><h6>Cusine Prenne</h6><div >$23</div></div></div>
+      <div class="f_col_6 col product"><img src="./img/girl6.jpg"><div><h6>Cusine Prenne</h6><div >$134</div></div></div>
     </div>
   </div>
-  <div class="f_col_4 subscribe">
+  <div class="f_col_3 subscribe">
     <div class="f_hold">
-      <div class="f_col_12 col"><img src="./img/food1.jpg"><div><h6>Cusine Prenne</h6><div >$234</div></div></div>
-      <div class="f_col_12 col"><img src="./img/food2.jpg"><div><h6>Cusine Prenne</h6><div >$234</div></div></div>
+      <div class="f_col_12 col product">
+        <img src="./img/food1.jpg">
+        <div><h6>Cusine Prenne</h6>
+          <div>$134</div>
+          <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+          </div>
+        </div>
+      </div>
+      <!-- <div class="f_col_12 col product"><img src="./img/food2.jpg"><div><h6>Cusine Prenne</h6><div >$334</div></div></div> -->
     </div>
   </div>
-  <div class="f_col_4 bestsells">
+  <div class="f_col_3 bestsells">
     <div class="f_hold">
-      <div class="f_col_6 col"><img src="./img/girl2.jpg"><div><h6>Cusine Prenne</h6><div >$234</div></div></div>
-      <div class="f_col_6 col"><img src="./img/girl1.jpg"><div><h6>Cusine Prenne</h6><div >$234</div></div></div>
-      <div class="f_col_6 col"><img src="./img/girl4.jpg" class="circle"><div><h6>Cusine Prenne</h6><div >$234</div></div></div>
-      <div class="f_col_6 col"><img src="./img/girl7.jpg"><div><h6>Cusine Prenne</h6><div >$234</div></div></div>
+      <div class="f_col_6 col product"><img src="./img/girl2.jpg"><div><h6>Cusine Prenne</h6><div >$4</div></div></div>
+      <div class="f_col_6 col product"><img src="./img/girl1.jpg"><div><h6>Cusine Prenne</h6><div >$74</div></div></div>
+      <div class="f_col_6 col product"><img src="./img/girl4.jpg"><div><h6>Cusine Prenne</h6><div >$54</div></div></div>
+      <div class="f_col_6 col product"><img src="./img/girl7.jpg"><div><h6>Cusine Prenne</h6><div >$34</div></div></div>
     </div>
   </div>
 </div>
-<div class="f_hold">
+<div class="f_hold catagory">
   <div class="f_col_12 col"><h3>Our Categories</h3></div>
   <div class="f_col_3 col"><img src="./img/girl5.jpg"><div><h6>Cusine Prenne</h6></div></div>
   <div class="f_col_3 col"><img src="./img/girl4.jpg"><div><h6>Cusine Prenne</h6></div></div>
   <div class="f_col_3 col"><img src="./img/girl6.jpg"><div><h6>Cusine Prenne</h6></div></div>
   <div class="f_col_3 col"><img src="./img/girl1.jpg"><div><h6>Cusine Prenne</h6></div></div>
 </div>
-<div class="f_hold">
+<div class="f_hold newarive">
   <div class="f_col_12 col"><h3>New Arival</h3></div>
   <div class="f_col_2 col"><img src="./img/girl1.jpg"><div><h6>Cusine Prenne</h6></div></div>
   <div class="f_col_2 col"><img src="./img/girl8.jpg"><div><h6>Cusine Prenne</h6></div></div>
@@ -101,31 +112,35 @@
   <div class="f_col_2 col"><img src="./img/girl7.jpg"><div><h6>Cusine Prenne</h6></div></div>
   <div class="f_col_2 col"><img src="./img/girl3.jpg"><div><h6>Cusine Prenne</h6></div></div>
 </div>
-<div class="f_hold">
+<div class="f_hold blogs">
   <div class="f_col_12 col"><h3>From Our Blog</h3></div>
-  <div class="f_col_6 col"><h1>10</h1><h4>May</h4><img src="./img/food2.jpg"><div><button>Read More</button><h6>Cusine Prenne</h6></div></div>
-  <div class="f_col_6 col"><h1>10</h1><h4>May</h4><img src="./img/food1.jpg"><div><button>Read More</button><h6>Cusine Prenne</h6></div></div>
+  <div class="f_col_6 col"><h2>10<sub>May</sub></h2><img src="./img/food2.jpg"><div><button>Read More</button><h6>Cusine Prenne</h6></div></div>
+  <div class="f_col_6 col"><h2>10<sub>April</sub></h2><img src="./img/food1.jpg"><div><button>Read More</button><h6>Cusine Prenne</h6></div></div>
 </div>
-<div class="f_hold">
-  <div class="f_col_12 col"><h3>New Arival</h3></div>
-  <div class="f_col_4 col"><div><h5>Free World Wide Shipping</h5></div></div>
-  <div class="f_col_4 col"><div><h5>Free World Wide Shipping</h5></div></div>
-  <div class="f_col_4 col"><div><h5>Free World Wide Shipping</h5></div></div>
+<div class="f_hold prefoter">
+  <div class="f_col_4 col one"><div><h5>World Wide Shipping</h5></div></div>
+  <div class="f_col_4 col two"><div><h5>Its Shipping</h5></div></div>
+  <div class="f_col_4 col three"><div><h5>Free World Wide Shipping</h5></div></div>
 </div>
-<div class="f_hold">
-  <div class="f_col_4">
+<div class="f_hold footer">
+  <div class="f_col_4 col">
     <div>
-      <img src="./img/girl4.jpg" style="width: 50px;" />
-      <h3 class="Name">VALUE</h3>
-      <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
-      <ul>
-        <li>PO BOx 1643 Collen Super, DKA</li>
-        <li>+39928389948</li>
-        <li>info@babyglee.com</li>
-      </ul>
+      <div class="logo">
+        <img src="./img/girl4.jpg" style="width: 50px;" />
+        <h3 class="Name">VALUE</h3>
+      </div>
+      <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+      <div class="address">
+        <ul>
+          <li>PO BOx 1643 Collen Super, DKA</li>
+          <li>+39928389948</li>
+          <li>info@babyglee.com</li>
+        </ul>
+      </div>
     </div>
   </div>
-  <div class="f_col_4 col">
+  <div class="f_col_4 col imp_link">
+    <h5>Important link</h5>
     <ul>
       <li>About us</li>
       <li>Contact US</li>
@@ -133,13 +148,22 @@
     </ul>
   </div>
   <div class="f_col_4 col">
-    facebook, google+, twitter
+    <div class="social">
+      <img src="./img/facebook.svg">
+      <img src="./img/google-plus.svg">
+      <img src="./img/linkedin.svg">
+      <img src="./img/skype.svg">
+      <img src="./img/path.svg">
+      <img src="./img/tumblr.svg">
+    </div>
+    <div>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
   </div>
-  <div class="f_col_12 col">
+  <div class="f_col_12 copyright">
     Developed by @bdmeditech.
   </div>
 </div>
-<img src="./img/sample.jpg" style="width: auto;">
+<!-- <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<img src="./img/sample.jpg" style="width: auto;"> -->
 </body>
 <link rel="stylesheet" href="./css/css/font-awesome.min.css">
 <link rel="stylesheet" href="./css/design.css">

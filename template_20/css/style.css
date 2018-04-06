@@ -1,6 +1,7 @@
 * { color: rgba(0,0,0,0.75); text-shadow: none; }
 ul, li, h1, h2, h3, h4, h5, h6, div, p, a { padding: 0; margin: 0; }
 .fa { padding: 5px; display: inline-block; }
-/*body { background: url('../img/sample.jpg') no-repeat; background-size: contain; }*/
+/*body { background: url('../img/sample.jpg') no-repeat; background-size: contain; background-position: 0% 25%; }*/
 img { width: 80%; margin: 0 10%; }
 a { text-decoration: none; }
+span { color: var(--c37); }
