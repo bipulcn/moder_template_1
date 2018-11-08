@@ -1,0 +1,34 @@
+* { color: rgba(0,0,0,0.75); text-shadow: none; }
+ul, li, h1, h2, h3, h4, h5, h6, div, p, a { padding: 0; margin: 0; }
+.fa { padding: 5px; display: inline-block; }
+/*body { background: url('../img/sample.jpg') no-repeat; background-size: contain; background-position: 0% 25%; }*/
+img { width: 80%; margin: 0 10%; }
+a { text-decoration: none; }
+span { color: var(--c37); }
+
+.header {
+  position: relative;
+  margin-bottom: -200px;
+  height: 200px;
+  background-image: linear-gradient(rgba(100, 50, 130, 0.5), rgba(200, 150, 230, 0.75));
+  z-index: -1;
+}
+.header2 {
+  position: relative;
+  margin-bottom: -200px;
+  height: 200px;
+  background-image: linear-gradient(rgba(100, 50, 130, 0.5), rgba(200, 150, 230, 0.75));
+  z-index: -1;
+  margin-top: -3.3%;
+}
+
+svg {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 10vw;
+  /* set height to pixels if you want angle to change with screen width */
+}
+.header2 svg {
+	opacity: 0.1;
+}
