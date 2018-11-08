@@ -94,8 +94,8 @@
 <div class="f_hold catagory">
     <div class="f_col_12 header2">      
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
-        <polygon class="svg--sm" fill="white" points="0,0 30,100 65,21 90,100 100,75 100,100 0,100"/>
-        <polygon class="svg--lg" fill="white" points="0,0 15,100 33,21 45,100 50,75 55,100 72,20 85,100 95,50 100,80 100,100 0,100" />
+        <polygon class="svg--sm" fill="#dea392" fill-opacity="0.7" points="0,0 30,100 65,21 90,100 100,75 100,100 0,100"/>
+        <polygon class="svg--lg" cx="150" cy="50" r="40" fill-opacity="0.7" points="0,0 15,90 33,21 45,80 50,75 55,95 72,20 85,100 95,50 100,80 100,100 0,100" />
       </svg>
     </div>
   <div class="f_col_12 col"><h3>Our Categories</h3></div>
@@ -113,6 +113,15 @@
   <div class="f_col_2 col"><img src="./img/girl3.jpg"><div><h6>Cusine Prenne</h6></div></div>
 </div>
 <div class="f_hold blogs">
+  <div class="f_col_12 col header2">
+    <svg width="200" height="150" xmlns="http://www.w3.org/2000/svg" version="1.1">
+      <path d="M 10 75 Q 50 10 100 75 T 190 75" stroke="black" stroke-linecap="round" stroke-dasharray="5,10,5" fill="#dea392"/>
+      <path d="M 190 75 Q 230 10 260 75 T 340 75 M 340 75 Q 410 10 460 75 T 600 75" stroke="black" stroke-linecap="round" stroke-dasharray="5,10,5" fill="#dea392"/>
+      <path d="M 10 75 L 190 75" stroke="red" stroke-linecap="round" stroke-width="1" stroke-dasharray="5,5" fill="none"/>
+      <path d="M 340 75 L 600 75" stroke="red" stroke-linecap="round" stroke-width="1" stroke-dasharray="5,5" fill="none"/>
+      <text x="75" y="25" fill='White'  transform="rotate(10 150, 150)">Grumpy!</text>
+    </svg>
+  </div>
   <div class="f_col_12 col"><h3>From Our Blog</h3></div>
   <div class="f_col_6 col"><h2>10<sub>May</sub></h2><img src="./img/food2.jpg"><div><button>Read More</button><h6>Cusine Prenne</h6></div></div>
   <div class="f_col_6 col"><h2>10<sub>April</sub></h2><img src="./img/food1.jpg"><div><button>Read More</button><h6>Cusine Prenne</h6></div></div>
