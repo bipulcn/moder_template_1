@@ -1,0 +1,84 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#topbar ul {
+	margin: 0;
+}
+
+#topbar li {
+	margin: 0;
+	color: #FFF;
+}
+
+#topbar a {
+	display: block;
+}
+
+#topbar a:hover {
+	color: #06F;
+}
+
+#topbar span {
+	padding: 2px 15px 0 4px;
+	vertical-align: top;
+}
+
+#topbar .leftaligned{
+	float: left;
+}
+#topbar .leftaligned li {
+	float: left;
+}
+
+#topbar .rightaligned{
+	float: right;
+}
+
+#topbar .rightaligned li {
+	float: right;
+}
+
+.name {
+	padding: 2px 15px 0 4px;
+}
+
+@media all and (min-width: 1024px) {
+}
+
+@media all and (min-width: 720px) and (max-width: 1024px) {
+}
+
+@media all and (min-width: 420px) and (max-width: 720px) {
+	#topbar span {
+		display: none;
+	}
+
+	#topbar li {
+		padding: 0 10px;
+	}
+	
+}
+
+@media all and (max-width: 420px) {
+	#topbar span {
+		display: none;
+	}
+
+	#topbar li {
+		padding: 0 7px;
+	}
+}
+
+
+
+@media all and (min-width: 1024px) {
+}
+
+@media all and (min-width: 720px) and (max-width: 1024px) {
+}
+
+@media all and (min-width: 420px) and (max-width: 720px) {
+}
+
+@media all and (max-width: 420px) {
+}

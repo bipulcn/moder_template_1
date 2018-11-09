@@ -1,0 +1,147 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html {
+	margin: 0;
+	padding: 0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #333;
+	text-shadow: 0 0 0 rgba(0,0,0,0.5);
+}
+
+body {
+	margin: 0 auto;
+	padding: 0;
+}
+
+#topbar {
+	background: rgba(28, 52, 77, 1);
+	margin: 0;
+}
+
+#topbar div {
+	margin: 0 auto;
+	background:  rgba(28, 52, 77, 1);
+	max-width: 1140px;
+	display: block;
+	height: 40px;
+}
+
+#container {
+	margin: 0 auto;
+	max-width: 1140px;
+}
+
+#contents {
+	margin: 0;
+	padding: 0;
+}
+
+#contentbody {
+	margin: 0;
+	padding: 0;	
+}
+
+#rightBar {
+	background: rgba(242, 242, 242, 1);
+	float: right;
+    height: 100%;
+}
+
+#leftBar {
+	background: #363;
+	float: left;
+    height: 100%;
+}
+
+#footer {
+	background: rgba(28, 52, 77, 1);
+	color: rgba(255,255,255,1);
+	margin: 0;
+}
+
+.clear {
+	border: none;
+	clear: both;
+}
+
+@media all and (min-width: 1024px) {
+	#topbar div {
+		width: 90%;
+	}
+	
+	#container {
+		width: 90%;
+	}
+
+	#rightBar {
+		width: 25%;
+	}
+	#leftBar {
+		width: 75%;
+	}
+}
+
+@media all and (min-width: 720px) and (max-width: 1024px) {
+
+	#topbar div {
+		width: 100%;
+	}
+	
+	#container {
+		width: 98%;
+	}
+
+	#rightBar {
+		width: 25%;
+	}
+	#leftBar {
+		width: 75%;
+	}
+}
+
+@media all and (min-width: 420px) and (max-width: 720px) {
+	html {
+		font-size: 13px;
+	}
+
+	#topbar div {
+		width: 100%;
+	}
+	#container {
+		width: 100%;
+	}
+
+	#rightBar div {
+		float: none;
+		-webkit-column-count: 2; /* Chrome, Safari, Opera */
+		-moz-column-count: 2; /* Firefox */
+		column-count: 2;
+		-webkit-column-gap: 0px; /* Chrome, Safari, Opera */
+		-moz-column-gap: 0px; /* Firefox */
+		column-gap: 0px;
+	}}
+
+@media all and (max-width: 420px) {
+	html {
+		font-size: 12px;
+	}
+
+	#topbar div {
+		width: 100%;
+	}
+	#container {
+		width: 100%;
+	}
+
+	#rightBar div {
+		float: none;
+		-webkit-column-count: 2; /* Chrome, Safari, Opera */
+		-moz-column-count: 2; /* Firefox */
+		column-count: 2;
+		-webkit-column-gap: 0px; /* Chrome, Safari, Opera */
+		-moz-column-gap: 0px; /* Firefox */
+		column-gap: 0px;
+	}
+}

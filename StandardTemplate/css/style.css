@@ -1,0 +1,90 @@
+@charset "UTF-8";
+/* CSS Document */
+
+div {
+	background: #FFF;
+}
+
+ul {
+	padding: 10px;
+	list-style: none;
+}
+
+li {
+	
+}
+
+a {
+	cursor: pointer;
+}
+
+p {
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight:lighter;
+	margin: 0;
+	text-transform: capitalize;
+	text-shadow: 1px -1px 0px rgba(0, 0, 0, 0.8), -1px 1px 0px rgba(255, 255, 255, 0.3);
+}
+
+h1 {
+	font-size: 2em;
+	margin-bottom: 10px;
+}
+
+h2 {
+	font-size: 1.7em;
+}
+
+h3 {
+	font-size: 1.5em;
+}
+
+h4 {
+	font-size: 1.3em;
+}
+
+h5 {
+	font-size: 1.1em;
+}
+
+h6 {
+	font-size: 1em;
+}
+
+hr {
+}
+
+table {
+	width: 80%;
+	margin: 20px auto;
+	color: #FFF;
+}
+
+th {
+	font-size: 1em;
+	background: rgba(58, 78, 43, 1);
+	padding: 10px;
+	text-transform: uppercase;
+}
+
+td {
+	padding: 7px;
+	text-align: center;
+}
+
+td:nth-child(odd) {
+	background: rgba(0,51,153,0.1);
+}
+
+td:nth-child(even) {
+}
+
+tr:nth-child(odd) {
+	background: rgba(116,157,86,0.9);
+}
+
+tr:nth-child(even) {
+	background: rgba(145,196,108,0.9);
+}

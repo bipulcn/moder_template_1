@@ -1,0 +1,106 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#rightBar h1, #rightBar h2, #rightBar h3, #rightBar h4, #rightBar h5, #rightBar h6 {
+	margin: 20px 0 10px 0;
+	padding: 10px;
+	font-weight:lighter;
+	text-shadow: none;
+}
+
+#rightBar h2 {
+	background: rgba(194, 194, 194, 1);
+	color: rgba(43, 133, 133, 1);
+}
+
+#rightBar h3 {
+	background: none;
+	color: rgba(43, 133, 133, 1);
+}
+
+#rightBar p {
+	margin: 0 ;
+	padding: 10px;
+}
+
+#rightBar ul {
+	margin: 20px auto;
+	padding: 0;
+}
+
+
+#rightBar ol {
+	margin: 10px auto;
+	padding: 0 20px;
+	list-style: none;
+}
+
+#rightBar ul>li {
+	background: rgba(52, 161, 161, 1);
+}
+
+#rightBar ol>li {
+	background: rgba(198, 224, 112, 1);
+}
+
+#rightBar li {
+	margin: 2px 0;
+	padding: 5px 10px;
+}
+
+#rightBar div {
+	margin:0;
+	background: none;
+}
+
+#rightBar div div {
+	padding: 5px 15px;
+}
+
+#rightBar .impMessa {
+	margin: 10px 0;
+	background: rgba(175, 238, 130, 1);
+}
+
+#rightBar .bottom {
+	margin: 10px 0;
+	background: rgba(28, 52, 77, 1);
+	color: #FFF;
+}
+
+#rightBar .image a {
+	display: block;
+}
+
+#rightBar #link1:after {
+	content:"Hello !";
+}
+
+#rightBar #link1:hover:after {
+	content:"How are you?";
+}
+
+
+@media all and (min-width: 1024px) {
+}
+
+@media all and (min-width: 720px) and (max-width: 1024px) {
+}
+
+@media all and (min-width: 420px) and (max-width: 720px) {
+	#rightBar div div, #rightBar p, #rightBar h1, #rightBar h2, #rightBar h3, #rightBar h4, #rightBar h5, #rightBar h6 {
+		width: 0%;
+		height: 0;
+		overflow: hidden;
+		padding: 0;
+	}
+}
+
+@media all and (max-width: 420px) {
+	#rightBar div div, #rightBar p, #rightBar h1, #rightBar h2, #rightBar h3, #rightBar h4, #rightBar h5, #rightBar h6 {
+		width: 0%;
+		height: 0;
+		overflow: hidden;
+		padding: 0;
+	}
+}
